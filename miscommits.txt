@@ -1,0 +1,11 @@
+commit 3e54ebd8a39780e2ccef5f3af0fa27798fb0e33f
+Author: edithmenb <edith.mendoza.barraza@gmail.com>
+Date:   Fri Sep 2 11:36:32 2016 -0600
+
+    Cambio en el readme.txt
+
+commit 7758e473e0f95610440c2a45c02a14e8528e8d17
+Author: edithmenb <edith.mendoza.barraza@gmail.com>
+Date:   Tue Aug 30 11:55:49 2016 -0600
+
+    Commit inicial con readme.txt
