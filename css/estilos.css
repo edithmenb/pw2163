@@ -20,11 +20,22 @@ header
 	background: blue;
 	color: white;
 	text-align: center;
+	padding: 0px 0px 10px 0px; /*arriba, derecha, abajo, izquierda*/
 }
 header nav ul li
 {
 	display: inline-block; /*rompe el modelo de caja*/
-	background: hotpink;
-	border-radius: 5px;
+	background: hotpink; /*color de fondo*/
+	border-radius: 5px; /*bordes redondeados*/
+	box-shadow: 3px 3px;
+	margin: 0px 10px 50px 10px; /*separo las cajas*/
+	padding: 5px 10px; /*agregando los botones (interno)*/
+	width: 80px; /*ancho del boton
+*/
+}
 
+header nav ul li:hover /*mouse por encima*/
+{
+	background: white; /*color de fondo*/
+	color: hotpink;
 }
