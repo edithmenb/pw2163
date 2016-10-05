@@ -48,7 +48,7 @@ article p
 	-o-transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 }*/
-article:hover
+/*article:hover
 {
 	background: black;
 	color: greenyellow;
@@ -56,4 +56,18 @@ article:hover
 	-ms-transform: skew(10deg,10deg);
 	-o-transform: skew(10deg,10deg);
 	-webkit-transform: skew(10deg,10deg);
+}*/
+
+article:hover
+{
+	background: black;
+	color: greenyellow;
+	-moz-transform: translate(150px,150px) rotate(360deg) scale(1.5) skew(10deg,10deg);
+	-ms-transform: translate(150px,150px) rotate(360deg) scale(1.5) skew(10deg,10deg);
+	-o-transform: translate(150px,150px) rotate(360deg) scale(1.5) skew(10deg,10deg);
+	-webkit-transform: translate(150px,150px) rotate(360deg) scale(1.5) skew(10deg,10deg);
 }
+
+
+
+
