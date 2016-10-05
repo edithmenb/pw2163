@@ -1,0 +1,59 @@
+article
+{
+	background: greenyellow; /*fondo*/
+	border: 2px solid black; /*borde*/
+	color: black; /*color de letra*/
+	margin: 20px 5px; /*margen exterior*/
+	padding: 15px; /*margen interior*/
+	text-align: center; /*alineacion del texto*/
+	-moz-transition:all 5s linear;
+	-ms-transition:all 5s linear;
+	-o-transition:all 5s linear;
+	-webkit-transition:all 5s linear;
+
+	width: 400px; /*ancho de la caja*/ 
+
+}
+article p
+{
+	font: 30px Tahoma;
+	width: 100%;
+	font-weight: bold;
+}
+
+/*article:hover
+{
+	height: 400px;
+	width: 800px;
+
+}*/
+
+/*article:hover
+{
+	background: black;
+	color: greenyellow;
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+
+
+}*/
+/*article:hover
+{
+	background: black;
+	color: greenyellow;
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+}*/
+article:hover
+{
+	background: black;
+	color: greenyellow;
+	-moz-transform: skew(10deg,10deg);
+	-ms-transform: skew(10deg,10deg);
+	-o-transform: skew(10deg,10deg);
+	-webkit-transform: skew(10deg,10deg);
+}
