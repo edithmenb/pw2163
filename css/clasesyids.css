@@ -1,0 +1,28 @@
+#primerUL
+{
+	display: inline-block;
+	background: blue;
+	color: white;
+	
+}
+
+#segundoUL
+{
+	background: yellow;
+	color:orange;
+}
+.explota
+{
+	background: blue;
+	color:red;
+}
+
+.samsung
+{
+	background: blue;
+	color:white;
+}
+
+
+/*clase: mas de una ves y con .clase;*/
+/*id: solo una vez y con #id*/
