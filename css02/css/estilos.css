@@ -1,0 +1,42 @@
+/*
+etiquetas
+id
+clases
+*/
+body
+{
+	font-size: 16px; /*1 em*/
+	margin:0 auto; /*centrar todo el body en la pantalla*/
+	max-width: 1078px; /*por decision de la empresa (banner)*/
+	min-width: 1078px;
+
+}
+header input
+{
+	float: right;
+	margin-right: -170px;
+	position: relative;
+}
+header nav ul li
+{
+	color:gray;
+	display:inline-block;/*uno a un lado del otro*/
+	font-size: 1.8em;
+	border-bottom: 1px solid gray;
+	margin-right: 15px;
+}
+header nav
+{
+	
+}
+#granthams /*logo de la empresa*/
+{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+#paint
+{
+	float:right;/*mover a la derecha la imagen de la pintura*/
+	margin-top:15px;
+}
+
