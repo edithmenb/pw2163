@@ -1,0 +1,14 @@
+body
+{
+
+}
+header nav
+{
+	background: orange;
+
+}
+nav ul li
+{
+	color:white;
+	display: inline-block;
+}
