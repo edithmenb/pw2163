@@ -1,0 +1,13 @@
+*Lenguaje de programación que se integra de alguna forma a una página Web HTML
+
+*Se interpreta "del lado del cliente", con una sintaxis muy parecida al java
+
+*En un inicio, a JS se le conocía como LiveScript, menos poderoso y ligero.
+
+*Hoy en dìa podemos ver diversas implementaciones de JS tanto del lado cliente como del lado del servidor
+
+*El código JS al estar del lado del cliente, pierde la característica de ocultamiento, es decir, cualquier persona puede tener acceso al código.
+
+*JS se usa generalmente para la validación de datos provenientes de formulario y efectos visuales.
+
+*Se integra perfectamete con AJAX y JSON.
