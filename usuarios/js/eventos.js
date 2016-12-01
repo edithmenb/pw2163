@@ -11,7 +11,7 @@ var inicioUsuarios = function()
 		var parametros="opcion=valida"+
 						"&usuario="+usuario+
 						"&clave="+clave+
-						"&id"+Math.random();
+						"&id="+Math.random();
 		//Hacemos la peticion remota
 
 		//Validamos que no estén vacíos
@@ -20,15 +20,15 @@ var inicioUsuarios = function()
 			$.ajax({
 				cache:false,
 				type:"POST",
-				datatype:"json",
+				dataType:"json",
 				url:"php/utilerias.php",
 				data:parametros,
-				success: function(response){
+				success:function(response){
 					//Si todo sale bien
 					if(response.respuesta == true)
 					{
-						$("#entradaUsuario").hide(slow);
-						$("nav").show(slow);
+						$("#entradaUsuario").hide("slow");
+						$("nav").show("slow");
 					}
 					else
 					{
@@ -36,7 +36,7 @@ var inicioUsuarios = function()
 					}
 					
 				},
-				error: function(xhr, ajaxOptions, thrownError){
+				error:function(xhr, ajaxOptions, thrownError){
 					//Si todo sale mal
 				}
 			});
@@ -60,12 +60,14 @@ var inicioUsuarios = function()
 	{
 		$("#artAltaUsuario").show("slow");
 	}
+	var GuardaUsuario = function()
+	{
+
+	}
 	//keypress se ejecuta cada vez que presiono una tecla sobre el input
 	$("#txtClave").on("keypress",teclaClave);
 	$("#btnAlta").on("click",Alta);
-	$("#btnGuadaUsuario").on("click",GuardaUsuario);
-
-
+	$("#btnGuardaUsuario").on("click",GuardaUsuario);
 
 
 }
