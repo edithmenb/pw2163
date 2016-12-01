@@ -56,8 +56,16 @@ var inicioUsuarios = function()
 			validaUsuario(); //funcion que valida al usuario
 		}
 	}
+	var Alta = function()
+	{
+		$("#artAltaUsuario").show("slow");
+	}
 	//keypress se ejecuta cada vez que presiono una tecla sobre el input
 	$("#txtClave").on("keypress",teclaClave);
+	$("#btnAlta").on("click",Alta);
+	$("#btnGuadaUsuario").on("click",GuardaUsuario);
+
+
 
 
 }

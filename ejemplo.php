@@ -15,7 +15,7 @@
 <?php
 	//Conexion al servidor
 	$conexion = mysql_connect("localhost","root","")
-	mysql_select_db("bd2163");
+	mysql_select_db("bd2164");
 	$consulta = "select * from usuarios ortder by usuario";
 	$resultado = mysql_query("consulta");//Ejecutando consulta
 	$tabla = "<table border=1>";
