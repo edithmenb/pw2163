@@ -24,7 +24,7 @@ header nav ul li
 	margin-right: 10px;
 	display: inline-block;
 }
-#artAltaUsuario
+main article
 {
 	display: none;
 	margin:0 auto;
@@ -34,4 +34,8 @@ header nav ul li
 {
 	width: 350px;
 	margin: 0 auto;
+}
+#tablita
+{
+	border-color: red;
 }
