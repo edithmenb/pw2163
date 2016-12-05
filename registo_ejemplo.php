@@ -34,7 +34,7 @@
 		//mysql_connect(servidor,usuario,contraseña);
 		$conexion = mysql_connect("localhost","root","");
 		//Seleccionamos la base de datos
-		mysql_select_db("2164");
+		mysql_select_db("db2164");
 		$consulta = "insert into usuarios values('".$usuario."','".$nombre."','".$clave."','".$tipo."')";
 		//Ejecutar consulta
 		mysql_query($consulta);

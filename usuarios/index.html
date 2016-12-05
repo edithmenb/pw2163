@@ -15,6 +15,7 @@
 	<header>
 		<h1>Sistema de prueba</h1>
 		<img src="imagenes/logotec.png">
+		<article id="tablita"></article>
 		<nav>
 			<ul>
 				<li>
@@ -30,18 +31,18 @@
 					</button>
 				</li>
 				<li>
-					<button class="btn btn-danger">
+					<button class="btn btn-danger" id="btnBaja">
 						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 						Baja
 					</button>
 				</li>
 				<li>
-					<button class="btn btn-warning">
+					<button class="btn btn-warning" id="btnCambio">
 						<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
 						Cambio
 					</button>
 				</li><li>
-					<button class="btn btn-info">
+					<button class="btn btn-info" id="btnConsulta">
 						<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
 						Consulta
 					</button>
@@ -67,17 +68,41 @@
 	<main>
 		<article id="artAltaUsuario">
 			<h2>Alta de usuarios</h2>
-			<input type="text" id="txtUsuario" placeholder="Usuario" class="form-control">
-			<input type="nombre" id="txtNombre" placeholder="Nombre" class="form-control">
-			<input type="password" id="txtClave" placeholder="Clave" class="form-control">
+			<input type="text" id="txtUsuarioAlta" placeholder="Usuario" class="form-control">
+			<input type="nombre" id="txtNombreAlta" placeholder="Nombre" class="form-control">
+			<input type="password" id="txtClaveAlta" placeholder="Clave" class="form-control">
 
-			<select name="txtTipo" id="txtTipo" class="form-control">
+			<select name="txtTipoAlta" id="txtTipo" class="form-control">
 				<option value="ninguno">Seleccione una opción</option>
 				<option value="administrador">Administrador</option>
 				<option value="invitado">Invitado</option>
 				<option value="colado">Colado</option>
 			</select>
 			<button class="btn btn-success btn-lg btn-block" id="btnGuardaUsuario">Guardar</button>
+		</article>
+
+		<article id="artBajaUsuario">
+			<h2>Baja de usuarios</h2>
+			<input type="text" id="txtUsuarioBaja" placeholder="Usuario" class="form-control">
+			<button class="btn btn-success btn-lg btn-block" id="btnBajaUsuario">Eliminar</button>
+		</article>
+
+		<article id="artCambioUsuario">
+			<h2>Cambio de usuarios</h2>
+			<input type="text" id="txtUsuarioCambio" placeholder="Usuario" class="form-control">
+			<select name="txtDatoCambio" id="txtDatoCambio" class="form-control">
+				<option value="usuario">Usuario</option>
+				<option value="nombre">Nombre</option>
+				<option value="clave">Clave</option>
+			</select>
+			<input type="text" id="txtCambio" placeholder="Nuevo valor" class="form-control">
+			<button class="btn btn-success btn-lg btn-block" id="btnCambioUsuario">Cambiar</button>
+		</article>
+
+		<article id="artConsultaUsuario">
+			<h2>Consulta de Usuarios</h2>
+			<input type="text" id="txtUsuarioConsulta" placeholder="Usuario" class="form-control">
+			<button class="btn btn-success btn-lg btn-block" id="btnConsultaUsuario">Buscar</button>
 		</article>
 
 	</main>
