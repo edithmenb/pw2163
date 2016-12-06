@@ -1,37 +1,37 @@
 body
 {
-	margin:0 auto;
+	margin: 0 auto;
 	max-width: 1024px;
-
 }
-header
-{
-	margin-bottom: 50px;
+header{
+	margin-bottom: 80px;
 	text-align: center;
 }
-header img
+header img /*logo*/
 {
-	float:right;
+	float: right;
 	margin-top: -40px;
 	width: 100px;
 }
-header nav 
+header nav
 {
-	display: none;
+	display: none; 
 }
 header nav ul li
 {
 	margin-right: 10px;
 	display: inline-block;
 }
-#artAltaUsuario
-{
+#artAltaUsuarios
+{	
 	display: none;
-	margin:0 auto;
-	width: 250px;
+	margin: 0 auto;
+	width: 450px;
 }
 #entradaUsuario
 {
-	width: 350px;
+
 	margin: 0 auto;
+	width: 350px;
 }
+
