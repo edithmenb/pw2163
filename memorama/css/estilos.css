@@ -1,0 +1,36 @@
+body
+{
+	margin: 0 auto;
+	max-width: 1024px;
+}
+header{
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+#artInicio button{
+	width: 300px;
+	margin: 0 auto;
+
+}
+#artInicio{
+	text-align: center;
+
+}
+#artLogin{
+	display: none;
+	margin: 0 auto;
+	width: 500px;
+}
+#artRegistrarse{
+	display: none;
+	margin: 0 auto;
+	width: 500px;
+}
+#juego{
+	display: none;
+	margin:0 auto;
+}
+#tablita {
+	margin:0 auto;
+}

@@ -28,10 +28,15 @@ header nav ul li
 	margin: 0 auto;
 	width: 450px;
 }
+#artConsultas
+{
+	display: none;
+	margin: 0 auto;
+	width: 500px;
+}
 #entradaUsuario
 {
 
 	margin: 0 auto;
 	width: 350px;
 }
-
